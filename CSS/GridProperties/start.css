@@ -1,0 +1,37 @@
+@import url(style.css);
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-areas: 
+        "green green green"
+        "yellow red blue"
+        "yellow red blue"
+        "orange orange blue";
+        gap: 30px;
+        height: 90vh;
+        width: 60%;
+}
+
+section{
+    font-weight: bold;
+}
+
+section li{
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    width: 2.5rem;
+}
+
+section ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    gap: 2rem;
+    width: 1rem;
+}
+
+p{
+    margin: 2em;
+}

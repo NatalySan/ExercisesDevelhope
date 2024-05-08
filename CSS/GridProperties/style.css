@@ -1,1 +1,23 @@
+#green{
+    grid-area: green;
+    background-color: rgb(170, 224, 170);
+}
 
+#yellow{
+    grid-area: yellow;
+    background-color: rgb(209, 209, 159);
+}
+
+#red{
+    grid-area: red;
+    background-color: rgb(215, 156, 156);
+}
+
+#blue{
+    grid-area: blue;
+    background-color: rgb(166, 166, 230);
+}
+ #orange{
+    grid-area: orange;
+    background-color: rgb(220, 189, 130);
+}
