@@ -1,0 +1,47 @@
+div {
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 4px 4px 5px rgb(170, 168, 168);
+}
+
+.cero {
+    background-color: rgb(77, 77, 83);
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+p {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.operadores {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.operador {
+    background-color: rgb(163, 163, 169);
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    background-color: rgb(245, 240, 240);  
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid rgb(130, 130, 173);
+    overflow: hidden;
+    font-weight: bold;
+
+}
+.equal {
+    grid-row: span 4;
+    background-color: tomato;
+}
